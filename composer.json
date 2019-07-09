@@ -23,7 +23,11 @@
   },
   "require": {
     "php": "^7.3",
-    "norse-blue/scalar-objects": "dev-master"
+    "ext-bcmath": "*",
+    "moontoast/math": "^1.1",
+    "norse-blue/scalar-objects": "dev-master",
+    "ramsey/uuid": "^3.8",
+    "symfony/finder": "^4.3"
   },
   "require-dev": {
     "nunomaduro/phpinsights": "^1.6",
